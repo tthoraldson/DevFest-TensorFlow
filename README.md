@@ -5,9 +5,9 @@ install docker
 
 install TensorFlow 0.11
 
-'''
+```
 docker run -it -p 8888:8888 -p 6006:6006 gcr.io/tensorflow/tensorflow
-'''
+```
 
 ##### Graphs
 Nodes can be
@@ -15,9 +15,9 @@ Nodes can be
 - Operations
 - Summaries
 
-'''
+```
 tensorboard --logdir-/tmp/first_graph
-'''
+```
 
 - look into running tensorflow on top of spark
 - tensorboard is your friend
